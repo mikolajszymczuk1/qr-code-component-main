@@ -1,9 +1,16 @@
 <template>
-    <h1 class="p-6 text-center text-white bg-dark-blue font-body">Hello World !!!</h1>
+    <main>
+        <QrCard />
+    </main>
 </template>
 
 <script>
+import QrCard from "@/components/QrCard";
+
 export default {
-    name: "App"
+    name: "App",
+    components: {
+        QrCard
+    }
 }
 </script>
