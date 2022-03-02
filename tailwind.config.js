@@ -14,6 +14,16 @@ module.exports = {
         screens: {
             "sm": "375px",
             "lg": "1440px"
+        },
+        extend: {
+            margin: {
+                "22": "5.5rem",
+                "38": "9.5rem"
+            },
+            fontSize: {
+                "heading": "1.4em",
+                "paragraph": "0.95em"
+            }
         }
     }
 };
