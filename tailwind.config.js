@@ -25,6 +25,9 @@ module.exports = {
             fontSize: {
                 "heading": "1.4em",
                 "paragraph": "0.95em"
+            },
+            dropShadow: {
+                "card": "0 15px 15px hsl(218, 44%, 22%, 0.1)"
             }
         }
     }
